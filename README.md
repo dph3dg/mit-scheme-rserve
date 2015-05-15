@@ -10,9 +10,15 @@ The graphs write directly to a single PDF file that is overwritten each time and
 you use OSX. There must be an equivalent in BSD, Linux etc.
 
 Examples given are:
+
 1.fitting a nonlinear function
+
 2.plotting a list, with points, or joined, optionally error bars, x label, y label, title using ggplot2
+
 3.showing a fitted function, optionally with error bars. You need to construct the fitted
+
 4.function yourself. ie raw data plus calculated y values from fn
+
 5.1.if you have Scmutils you can also plot linear fits from scheme (you could use the R equivalent)
+
 5.2 density array plot using m:generate from scmutils
