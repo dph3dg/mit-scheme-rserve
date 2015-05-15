@@ -54,7 +54,7 @@
   (start-R)
   (set! *R* (open-tcp-stream-socket "localhost" 6311))
 ;  (port/set-coding *R* 'BINARY)
-  (port/set-line-ending *R* 'newline)
+  (port/set-line-ending *R* 'newline) ;; From Taylor R Campbell
 ;  (port/set-line-ending *R* 'BINARY)
   (rserve-version))
 (define (close)
